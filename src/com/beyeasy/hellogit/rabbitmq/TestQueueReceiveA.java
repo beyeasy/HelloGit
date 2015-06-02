@@ -11,7 +11,7 @@ public class TestQueueReceiveA extends BaseReceive {
 
     @Override
     protected void doBiz(JSONObject json) {
-        System.out.println("[" + this.getClass().getName() + "]收到消息：" + json.toString());        
+        System.out.println("[" + this.getClass().getName() + "]收到消息：" + json.toString());
     }
 
 }
